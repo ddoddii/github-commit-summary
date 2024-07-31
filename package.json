@@ -1,0 +1,21 @@
+{
+	"name": "github-commit-summary",
+	"version": "1.0.0",
+	"description": "github commit history summarizer",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "npm run test"
+	},
+	"keywords": [
+		"github",
+		"commit",
+		"summary"
+	],
+	"author": "soeun",
+	"license": "ISC",
+	"dependencies": {
+		"@octokit/rest": "^21.0.1",
+		"dotenv": "^16.4.5"
+	},
+	"type": "module"
+}
